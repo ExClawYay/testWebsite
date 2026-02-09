@@ -3,110 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV Subscriptions</title>
+    <title>StreamElite - Premium IPTV Streaming</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="hero">
-            <h1 class="animate-fade-in">Experience Premium IPTV</h1>
-            <p class="animate-slide-up">Thousands of channels, movies, and shows at your fingertips.<br>Accessible on any device, anywhere!</p>
-            <a href="#pricing" class="cta-button animate-bounce">Get Started</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">StreamElite</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Plans</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="hero-bg animate-pulse"></div>
+    </nav>
+
+    <header class="hero">
+        <div class="stars"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Stream Everything, Everywhere</h1>
+                <p>Experience cinema-quality entertainment with 2000+ premium channels. No limits. No buffering. Pure streaming bliss.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="device-mockup">
+                    <div class="device-screen"></div>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="features">
-            <div class="container">
-                <h2 class="animate-fade-in">Why Choose Us?</h2>
-                <div class="feature-grid">
-                    <div class="feature-item animate-slide-left">
-                        <h3>Crystal Clear Quality</h3>
-                        <p>Enjoy HD and 4K channels with a seamless streaming experience.</p>
-                    </div>
-                    <div class="feature-item animate-slide-right">
-                        <h3>Global Coverage</h3>
-                        <p>Access content from around the world, all in one place.</p>
-                    </div>
-                    <div class="feature-item animate-slide-left">
-                        <h3>Affordable Plans</h3>
-                        <p>Choose a subscription that fits your needs and budget.</p>
-                    </div>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why StreamElite?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>8K Ready</h3>
+                    <p>Experience crystal-clear 8K streaming on compatible devices. The future of entertainment, today.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Zero Lag</h3>
+                    <p>Advanced CDN technology ensures zero buffering. Stream instantly, anywhere in the world.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Access</h3>
+                    <p>12,000+ channels from 195 countries. Entertainment without borders.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>All Devices</h3>
+                    <p>Seamlessly sync across TV, phone, tablet, and computer. Your content, your way.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Military Security</h3>
+                    <p>Bank-level encryption protects your privacy. Stream with complete peace of mind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h3>Free Trial</h3>
+                    <p>7 days completely free. No credit card required. Cancel anytime, no questions.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="testimonials">
-            <div class="container">
-                <h2 class="animate-fade-in">What Our Users Say</h2>
-                <div class="testimonial-slider">
-                    <div class="testimonial animate-fade-in">
-                        <p>"Best IPTV service ever! So many channels and great quality."</p>
-                        <cite>- John D.</cite>
-                    </div>
-                    <div class="testimonial animate-fade-in">
-                        <p>"Affordable and easy to use. Highly recommend!"</p>
-                        <cite>- Sarah M.</cite>
-                    </div>
-                    <div class="testimonial animate-fade-in">
-                        <p>"Perfect for binge-watching. No buffering issues."</p>
-                        <cite>- Mike T.</cite>
-                    </div>
+    <section class="streaming-stats">
+        <div class="container">
+            <div class="stat">
+                <h3>12,000+</h3>
+                <p>Premium Channels</p>
+            </div>
+            <div class="stat">
+                <h3>500K+</h3>
+                <p>Happy Subscribers</p>
+            </div>
+            <div class="stat">
+                <h3>99.9%</h3>
+                <p>Uptime Guarantee</p>
+            </div>
+            <div class="stat">
+                <h3>195</h3>
+                <p>Countries Served</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <p class="pricing-subtitle">All plans include a 7-day free trial</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-badge">Popular</div>
+                    <h3>Starter</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">4.99</span><span class="period">/mo</span></div>
+                    <ul class="features-list">
+                        <li>✓ 2,000+ channels</li>
+                        <li>✓ HD quality (720p)</li>
+                        <li>✓ 2 simultaneous streams</li>
+                        <li>✓ Basic support</li>
+                        <li>✗ VOD library</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="plan-badge featured-badge">Best Value</div>
+                    <h3>Pro</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">12.99</span><span class="period">/mo</span></div>
+                    <ul class="features-list">
+                        <li>✓ 8,000+ channels</li>
+                        <li>✓ 4K ultra HD</li>
+                        <li>✓ 5 simultaneous streams</li>
+                        <li>✓ 24/7 priority support</li>
+                        <li>✓ Full VOD library (50K+ movies)</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-badge">Premium</div>
+                    <h3>Ultimate</h3>
+                    <div class="price"><span class="currency">$</span><span class="amount">19.99</span><span class="period">/mo</span></div>
+                    <ul class="features-list">
+                        <li>✓ 12,000+ channels</li>
+                        <li>✓ 8K quality</li>
+                        <li>✓ Unlimited streams</li>
+                        <li>✓ VIP concierge</li>
+                        <li>✓ Early access to new content</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="pricing" class="pricing">
-            <div class="container">
-                <h2 class="animate-fade-in">Our Subscription Plans</h2>
-                <div class="pricing-grid">
-                    <div class="pricing-item animate-zoom">
-                        <h3>Basic</h3>
-                        <p class="price">$5/month</p>
-                        <ul>
-                            <li>100+ Channels</li>
-                            <li>SD & HD Quality</li>
-                            <li>1 Device</li>
-                        </ul>
-                        <a href="#" class="cta-button">Subscribe</a>
-                    </div>
-                    <div class="pricing-item premium animate-zoom">
-                        <h3>Premium</h3>
-                        <p class="price">$15/month</p>
-                        <ul>
-                            <li>1000+ Channels</li>
-                            <li>HD & 4K Quality</li>
-                            <li>3 Devices</li>
-                        </ul>
-                        <a href="#" class="cta-button">Subscribe</a>
-                    </div>
-                    <div class="pricing-item animate-zoom">
-                        <h3>Ultimate</h3>
-                        <p class="price">$25/month</p>
-                        <ul>
-                            <li>2000+ Channels</li>
-                            <li>HD, 4K, & VOD</li>
-                            <li>Unlimited Devices</li>
-                        </ul>
-                        <a href="#" class="cta-button">Subscribe</a>
-                    </div>
+    <section class="testimonials">
+        <div class="container">
+            <h2>Loved by Millions</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"StreamElite changed how I watch TV. The quality is insane and the selection is unmatched."</p>
+                    <cite>— Jessica M., New York</cite>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Finally, a service that actually delivers. Zero buffering, amazing support. Worth every penny."</p>
+                    <cite>— Marcus T., Los Angeles</cite>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Best streaming service I've tried. Works perfectly on all my devices. Can't recommend enough!"</p>
+                    <cite>— Sarah K., Chicago</cite>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="cta-section">
-            <div class="container">
-                <h2 class="animate-fade-in">Ready to Start Watching?</h2>
-                <p class="animate-slide-up">Join thousands of satisfied users today.</p>
-                <a href="#pricing" class="cta-button animate-pulse">Sign Up Now</a>
-            </div>
-        </section>
-    </main>
+    <section id="contact" class="cta">
+        <div class="container">
+            <h2>Ready to Stream?</h2>
+            <p>Join 500,000+ satisfied subscribers today. 7 days free, no credit card required.</p>
+            <a href="#pricing" class="btn btn-primary btn-large">Start Your Free Trial</a>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2026 IPTV Subscriptions. All rights reserved.</p>
+            <p>&copy; 2026 StreamElite. Premium IPTV Streaming Service. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
